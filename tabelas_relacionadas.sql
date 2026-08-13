@@ -46,3 +46,38 @@ SELECT
 FROM livros
 INNER JOIN categorias ON (livros.id_categoria = categorias.id);
 
+/* Criar banco de dados chamado pet_shop
+
+Criar tabela chamada clientes com os campos (id, nome, observacao)
+Inserir 4 clientes (registros) na tabela de clientes
+Consultar todos os registros
+Modificar a tabela de clientes adicionando a coluna de sobrenome
+Atualizar todos os registros definindo sobrenome para cada um dos registros
+Modificar a tabela de clientes adicionando coluna de telefone
+Atualizar todos os registros definindo telefone para cada um dos registros
+Consultar todos os registros
+
+Criar tabela especies com os campos (id, nome)
+Inserir registros na tabela de especies (Gato, Cachorro, Coelho, Ave)
+Consultar todos os registros
+
+Criar tabela de racas com os campos (id, nome, id_especie), lembrar de definir a FK
+Inserir duas raças por especie
+Consultar todos os registros
+Consultar todos os registros apresentando os dados da especie (dica: INNER JOIN)
+
+Criar tabela pets com os campos (nome, data_nascimento DATE, id_cliente, id_raca, lembrar de definir FK)
+Inserir no mínimo de 1 pet por raça
+Alterar tabela adicionando colunas de sexo (armazenar como f ou m), peso
+Atualizar todos os pets com exeção do cachorro definindo o sexo e peso
+
+Consultar todos os pets
+
+Consultar todos os pets apresentando os dados da raca
+Consultar todos os pets apresentando os dados da especie
+Consultar todos os pets apresentando os dados do cliente
+Consultar todos os pets apresentando os dados da raca, especie, cliente
+
+Consultar todos os pets que não tem peso definido
+
+*/
